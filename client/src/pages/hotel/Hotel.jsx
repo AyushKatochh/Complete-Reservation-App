@@ -129,14 +129,14 @@ const Hotel = () => {
                 <p className="hotelDesc">{data.desc}</p>
               </div>
               <div className="hotelDetailsPrice">
-                <h1>Perfect for  {days}-days </h1>
+              
                 <span>
-                  Located in the real heart of Krakow, this Restaurant has an
+                  Located in the real heart of Jammu, this Restaurant has an
                   excellent location score of 9.8!
                 </span>
                 <h2>
-                  <b>₹{days * data.cheapestPrice * options.room}</b> ({days}{" "}
-                  days)
+                  <b>₹{days * data.cheapestPrice * options.room}</b> 
+                  
                 </h2>
                 <button onClick={handleClick}>Reserve or Book tables now!</button>
               </div>
